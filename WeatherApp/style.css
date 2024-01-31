@@ -5,6 +5,55 @@
   font-family: "Poppins", "sans-serif";
 }
 
-body { 
+body {
   background-color: #222;
+}
+
+section {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  margin: 100px auto 0;
+  padding: 40px 35px;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+section .search input {
+  position: relative;
+  height: 45px;
+  width: 300px;
+  border: 0;
+  outline: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+section .search i {
+  font-size: 18px;
+  position: absolute;
+  /* left: -180px;
+  top: -30px; */
+  left: 42%;
+  top: 17.4%;
+  color: grey;
+  z-index: 100;
+}
+
+section .search .search-filed-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .search .search-button {
+  height: 45px;
+  width: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
