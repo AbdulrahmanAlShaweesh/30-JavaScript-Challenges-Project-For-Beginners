@@ -28,6 +28,12 @@ section .search input {
   outline: none;
   padding-left: 30px;
   border-radius: 10px;
+  font-size: 18px;
+}
+
+section .search input::placeholder {
+  font-size: 15px;
+  padding-left: 5px;
 }
 
 section .search i {
@@ -35,13 +41,14 @@ section .search i {
   position: absolute;
   /* left: -180px;
   top: -30px; */
-  left: 42%;
+  left: 39.4%;
   top: 17.4%;
   color: grey;
   z-index: 100;
+  padding-right: 15px;
 }
 
-section .search .search-filed-icons {
+section .search {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,9 +58,45 @@ section .search .search-button {
   height: 45px;
   width: 80px;
   background-color: white;
-  color: black;
+  color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+/* weather section */
+
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.deitals {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.humidity,
+.Wind {
+  font-size: 20px;
 }
