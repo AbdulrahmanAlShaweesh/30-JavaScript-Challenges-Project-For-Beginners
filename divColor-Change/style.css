@@ -21,7 +21,6 @@ section .contents {
   height: 200px;
   width: 300px;
   border: 1px solid grey;
-  /* background-color: red; */
   margin: 0 0 10px 0;
   position: relative;
 }
