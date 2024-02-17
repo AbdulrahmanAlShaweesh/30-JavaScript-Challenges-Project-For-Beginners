@@ -60,3 +60,48 @@ button {
   font-size: 18px;
   text-transform: capitalize;
 }
+
+/* adding media query */
+/* small screen */
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .print-message {
+    width: 80%;
+  }
+  .print-message .btn {
+    font-size: 14px;
+  }
+  .contents {
+    font-size: 14px;
+  }
+}
+
+/* media screen */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .print-message {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .print-message {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .print-message {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .print-message {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+  .print-message {
+    width: 30%;
+  }
+}
