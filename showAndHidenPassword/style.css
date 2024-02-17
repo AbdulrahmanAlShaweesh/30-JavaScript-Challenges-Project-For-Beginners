@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+section .content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+
+section .content .password {
+  width: 300px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+section .content .hidden {
+  height: 35px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
