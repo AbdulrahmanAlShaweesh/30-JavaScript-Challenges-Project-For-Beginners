@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --bc-color1: red;
+  --bc-color2: green;
+  --bc-color3: black;
+}
+
+section .contents {
+  height: 200px;
+  width: 300px;
+  border: 1px solid grey;
+  /* background-color: red; */
+  margin: 0 0 10px 0;
+  position: relative;
+}
+
+section .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 150px;
+  text-transform: capitalize;
+}
